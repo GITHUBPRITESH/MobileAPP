@@ -7,6 +7,8 @@ namespace MobileAPP
 {
     interface InterfaceImport
     {
-       void IFunction();
+       void FunctionTest();
+
+        void FunctionINT();
     }
 }
