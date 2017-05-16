@@ -15,14 +15,14 @@ namespace MobileAPP.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["MessageNOT"] = "Your application description page not working.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["MessageALL"] = "Your contact page not working.";
 
             return View();
         }
