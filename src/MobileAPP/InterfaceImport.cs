@@ -7,5 +7,6 @@ namespace MobileAPP
 {
     interface InterfaceImport
     {
+       void IFunction();
     }
 }
